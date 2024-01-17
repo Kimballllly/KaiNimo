@@ -192,7 +192,9 @@ footer {
   margin: 0 auto;
 }
 
-
+html, body {
+    overflow-x: hidden;
+  }
 @media (max-width: 768px) {
   #floatingLogo {
     top: 5px;
@@ -224,6 +226,9 @@ footer {
 	text-align:center;
 	margin-left:50%;
   }
+	html, body {
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 480px) {
@@ -250,6 +255,9 @@ footer {
   .dropdown .nested-dropdown-content a {
     font-size: 10px;
     padding: 6px; 
+  
+}
+html, body {
+    overflow-x: hidden;
   }
 }
-
