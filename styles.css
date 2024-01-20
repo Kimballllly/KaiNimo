@@ -238,15 +238,17 @@ footer {
 
     nav {
         top:25px;
-        margin-left:60%;
+	    font-family:Raleway;
+        padding:10px;
+	    margin-left:60%;
         position: absolute;
     }
     nav h1 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     nav a {
-        font-size: 8px;
+        font-size: 2px;
         padding:0;
     }
 
